@@ -1,0 +1,55 @@
+@font-face { font-family: Nerd; src: url('Nerd.ttf'); } 
+
+body {
+    background-color: #E8F0FF;
+    color: gray;
+    font-family: Nerd;
+    padding-top: 65px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*.centered {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}*/
+
+.topped {
+    width: 100%;
+    top:auto;
+    position: absolute;
+    top: 0px;
+    background-color: #d3e2fd;
+}
+.bottom {
+    width: 100%;
+    bottom:auto;
+    position: absolute;
+    bottom: 0px;
+    background-color: #d3e2fd;
+}
+
+li {
+    font-size: 25px;
+}
+
+textarea {
+    resize: none;
+    background-color: rgb(215, 235, 253);
+}
+
+.home:hover {
+    color: gray;
+}
+.home:visited {
+    color: gray;
+}
+.home:link {
+    color:gray
+}
+.home {
+    text-decoration: none;
+}

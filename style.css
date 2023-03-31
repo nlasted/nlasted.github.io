@@ -5,7 +5,7 @@ body {
     color: gray;
     font-family: Nerd;
     padding-top: 65px;
-
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,13 +22,6 @@ h1, h2, h3, h4, h5, h6 {
     top:auto;
     position: absolute;
     top: 0px;
-    background-color: #d3e2fd;
-}
-.bottom {
-    width: 100%;
-    bottom:auto;
-    position: absolute;
-    bottom: 0px;
     background-color: #d3e2fd;
 }
 
